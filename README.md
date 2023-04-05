@@ -1,6 +1,19 @@
 # Portfolio Project
 
 Welcome to my portfolio project! Here, you will find a collection of my best work and projects I have worked on. This is a great place to get an idea of my coding style, interests and skillset.
+
+🌍  I'm based in Tallinn* 
+
+✉️  You can contact me at [paskevitsv@mail.ru](mailto:paskevitsv@mail.ru)* 
+
+🚀  I'm currently working on [Wiki for education](http://github.com/Vladislp/Education-notebook-wiki.io)* 
+
+🧠  I'm learning Javascript, Azure, HTML5, CSS3, Node Js* 
+
+🤝  I'm open to collaborating on interesting projects* 
+
+⚡  I have passion for food...and cats, dogs. :)
+
 ## Projects
 
 ### Project 1 (Automatic Curtains)
@@ -32,6 +45,7 @@ https://github.com/Vladislp/turbo-palm-tree-portfolio.git
 ## Usage
 
 You can navigate to the individual project folders to view the code and any associated files. Each project may have its own set of instructions and dependencies.
+
 ## Contributing
 
 If you have any suggestions or improvements, feel free to create a pull request or raise an issue on this repository.
