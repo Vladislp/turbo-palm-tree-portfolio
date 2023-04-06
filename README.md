@@ -6,7 +6,7 @@ Welcome to my portfolio project! Here, you will find a collection of my best wor
 
 ✉️  You can contact me at [paskevitsv@mail.ru](mailto:paskevitsv@mail.ru)* 
 
-🚀  I'm currently working on [Wiki for education](http://github.com/Vladislp/Education-notebook-wiki.io)* 
+🚀  I'm currently working on [Turbo palm tree portfolio](https://github.com/Vladislp/turbo-palm-tree-portfolio.github.io)* 
 
 🧠  I'm learning Javascript, Azure, HTML5, CSS3, Node Js* 
 
