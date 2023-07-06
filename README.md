@@ -1,4 +1,4 @@
-# Portfolio Project
+# Portfolio
 
 Welcome to my portfolio project! Here, you will find a collection of my best work and projects I have worked on. This is a great place to get an idea of my coding style, interests and skillset.
 
