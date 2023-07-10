@@ -6,6 +6,14 @@ export const defaultProps = {
   mobile: true,
 };
 
+const getOrigin = () => {
+  if (typeof window !== "undefined" && window.innerWidth > 768) {
+    return "left";
+  } else {
+    return "bottom";
+  }
+};
+
 export const targetElements = [
   {
     element: ".section-title",
@@ -19,14 +27,14 @@ export const targetElements = [
     element: ".hero-title",
     animation: {
       delay: 500,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
+      origin: getOrigin(),
     },
   },
   {
     element: ".hero-cta",
     animation: {
       delay: 1000,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
+      origin: getOrigin(),
     },
   },
   {
@@ -40,21 +48,21 @@ export const targetElements = [
     element: ".about-wrapper__info",
     animation: {
       delay: 1000,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
+      origin: getOrigin(),
     },
   },
   {
     element: ".project-wrapper__text",
     animation: {
       delay: 500,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
+      origin: getOrigin(),
     },
   },
   {
     element: ".project-wrapper__image",
     animation: {
       delay: 1000,
-      origin: window.innerWidth > 768 ? "right" : "bottom",
+      origin: getOrigin(),
     },
   },
   {

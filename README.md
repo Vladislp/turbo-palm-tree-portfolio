@@ -4,7 +4,7 @@ Welcome to my portfolio project! Here, you will find a collection of my best wor
 
 🌍  I'm based in Tallinn* 
 
-✉️  You can contact me at [paskevitsv@mail.ru](mailto:paskevitsv@mail.ru)* 
+✉️  You can contact me at [vladpaskevits27@gmail.com](mailto:vladpaskevits27@gmail.com)* 
 
 🚀  I'm currently working on [Turbo palm tree portfolio](https://github.com/Vladislp/turbo-palm-tree-portfolio.github.io)* 
 
@@ -54,4 +54,4 @@ If you have any suggestions or improvements, feel free to create a pull request 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 ## Contact
 
-You can contact me through my website or through email at paskevitsv@mail.ru.
+You can contact me through my website or through email at vladpaskevits27@gmail.com.
