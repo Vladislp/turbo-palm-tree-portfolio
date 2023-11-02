@@ -6,70 +6,20 @@ export const defaultProps = {
   mobile: true,
 };
 
-const getOrigin = () => {
-  if (typeof window !== "undefined" && window.innerWidth > 768) {
-    return "left";
-  } else {
-    return "bottom";
-  }
-};
+const getOrigin = () => (typeof window !== "undefined" && window.innerWidth > 768) ? "left" : "bottom";
+
+const createAnimation = (element, delay = 0, distance = "0px", origin = getOrigin()) => ({
+  element,
+  animation: { delay, distance, origin },
+});
 
 export const targetElements = [
-  {
-    element: ".section-title",
-    animation: {
-      delay: 300,
-      distance: "0px",
-      origin: "bottom",
-    },
-  },
-  {
-    element: ".hero-title",
-    animation: {
-      delay: 500,
-      origin: getOrigin(),
-    },
-  },
-  {
-    element: ".hero-cta",
-    animation: {
-      delay: 1000,
-      origin: getOrigin(),
-    },
-  },
-  {
-    element: ".about-wrapper__image",
-    animation: {
-      delay: 600,
-      origin: "bottom",
-    },
-  },
-  {
-    element: ".about-wrapper__info",
-    animation: {
-      delay: 1000,
-      origin: getOrigin(),
-    },
-  },
-  {
-    element: ".project-wrapper__text",
-    animation: {
-      delay: 500,
-      origin: getOrigin(),
-    },
-  },
-  {
-    element: ".project-wrapper__image",
-    animation: {
-      delay: 1000,
-      origin: getOrigin(),
-    },
-  },
-  {
-    element: ".contact-wrapper",
-    animation: {
-      delay: 800,
-      origin: "bottom",
-    },
-  },
+  createAnimation(".section-title", 300, "0px", "bottom"),
+  createAnimation(".hero-title", 500, undefined, getOrigin()),
+  createAnimation(".hero-cta", 1000, undefined, getOrigin()),
+  createAnimation(".about-wrapper__image", 600, "0px", "bottom"),
+  createAnimation(".about-wrapper__info", 1000, undefined, getOrigin()),
+  createAnimation(".project-wrapper__text", 500, undefined, getOrigin()),
+  createAnimation(".project-wrapper__image", 1000, undefined, getOrigin()),
+  createAnimation(".contact-wrapper", 800, "0px", "bottom"),
 ];
