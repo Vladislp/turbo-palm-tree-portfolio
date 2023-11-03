@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" class="sr" dir="ltr">
   <head>
+
+    <style>
+      /* Critical styles for the hero section */
+      .hero-title {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.5s;
+      }
+    </style>
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-27EE0B5N35"></script>
@@ -46,7 +55,8 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
   
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" async>
     <link rel="stylesheet" href="styles.scss">
   
     <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
@@ -367,14 +377,14 @@
     <!-- **** Footer Section **** -->
     <footer class="footer navbar-static-bottom">
       <div class="container">
-        <a rel="noopener noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
+        <a rel="noopener noreferrer" href="#top" class="back-to-top" aria-label="Back to Top">
+          <i class="fa fa-2x fa-angle-up" aria-hidden="true"></i>
+        </a>        
         <div class="social-links">
-          <a rel="noopener noreferrer" href="https://www.linkedin.com/in/vladislav-pa%C5%A1kevit%C5%A1-295b7823a/" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
+          <a rel="noopener noreferrer" href="https://www.linkedin.com/in/vladislav-pa%C5%A1kevit%C5%A1-295b7823a/" target="_blank" aria-label="LinkedIn Profile">
+            <i class="fa fa-inverse fa-linkedin"></i>
           </a>
-          <a rel="noopener noreferrer" href="https://github.com/Vladislp" target="_blank">
+          <a rel="noopener noreferrer" href="https://github.com/Vladislp" target="_blank" aria-label="GitHub Profile">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
