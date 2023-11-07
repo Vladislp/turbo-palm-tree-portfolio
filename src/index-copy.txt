@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" class="sr" dir="ltr">
+  <head>
+
+    <style>
+      /* Critical styles for the hero section */
+      .hero-title {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.5s;
+      }
+    </style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-27EE0B5N35"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-27EE0B5N35');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="5clp2cwH_Ck2pFNRPI1x_ibVRjQ1RqvGyJJv8AbrdKI" />
+  
+    <title>Vladislav Paskevits | Developer</title>
+  
+    <meta name="description" content="[Vladislav Paskevits] | Experienced programmer with a diverse skill set and a strong work ethic. Committed to finding solutions and willing to invest time in research to overcome challenges. Skilled in various programming languages and always eager to learn more.">
+    <meta name="keywords" content="[Vladislp], [Vladislav Paskevits], javascript, python, Azure, Typescript, JSON, React, CSS, HTML">
+  
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+  
+    <meta name="msapplication-TileImage" content="assets/portfolio.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+  
+    <meta name="twitter:card" content="Summary">
+    <meta name="twitter:title" content="Vladislav Paskevits | Developer">
+    <meta name="twitter:description" content="Experienced programmer with a diverse skill set and a strong work ethic. Committed to finding solutions and willing to invest time in research to overcome challenges. Skilled in various programming languages and always eager to learn more.">
+    <meta name="twitter:image" content="https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1060&t=st=1688645290~exp=1688645890~hmac=0f472dd0181ab50239ecc33fd8bbc6792a44aa3aa0505e617a4ea1790462807e">
+    <meta name="twitter:url" content="https://vp-web-development-showcase.netlify.app/">
+
+    <!-- Facebook Open Graph tags -->
+    <meta property="og:title" content="Vladislav Paskevits | Developer">
+    <meta property="og:description" content="Experienced programmer with a diverse skill set and a strong work ethic. Committed to finding solutions and willing to invest time in research to overcome challenges. Skilled in various programming languages and always eager to learn more.">
+    <meta property="og:image" content="https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1060&t=st=1688645290~exp=1688645890~hmac=0f472dd0181ab50239ecc33fd8bbc6792a44aa3aa0505e617a4ea1790462807e">
+    <meta property="og:url" content="https://vp-web-development-showcase.netlify.app/">
+    <meta property="og:type" content="website">
+
+    <link rel="canonical" href="https://vp-web-development-showcase.netlify.app/">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+  
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" async>
+    <link rel="stylesheet" href="styles.scss">
+  
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  </head>
+  
+  <body>
+    <div id="top"></div>
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Vladislav Paskevits</span>
+          <br >
+          I'm the Developer.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Know more</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <!-- (For retina images) srcset="assets/profile.jpg 1x, assets/profile@2x.jpg 2x, assets/profile@3x.jpg 3x" -->
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="300"
+                width="300"
+                src="assets/profile.jpg"
+                loading="lazy"
+              >
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I'm a versatile programmer with a strong passion for coding and a wide range of interests. Beyond programming, I enjoy experimenting with new recipes and exploring diverse cuisines, staying active through hobbies like Airsoft, going to the gym, and playing video games with friends. My aim is to continually improve my programming skills while pursuing a well-rounded and balanced lifestyle.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Automatic Curtains</h3>
+                <div>
+                  <p class="mb-4">
+                    I designed and executed an electrical engineering project that involved creating a custom electrical scheme, researching and selecting appropriate components, and ordering and assembling a printed circuit board. I also programmed the board to achieve the desired functionality. This project required attention to detail, problem-solving skills, and proficiency in electronics and programming.
+                  </p>
+                </div>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://circuitmaker.com/Projects/Details/Vladislav-Paskevits/Automatic-Curtains"
+                >
+                  Project page
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noopener noreferrer" href="https://circuitmaker.com/Projects/Details/Vladislav-Paskevits/Automatic-Curtains" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Automatic-Curtains project picture"
+                      class="img-fluid"
+                      src="./assets/project5.jpg"
+                      height="500"
+                      width="500"
+                      loading="lazy"
+                    >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Ginger Bakery</h3>
+                <div>
+                  <p class="mb-4">
+                    I created a bakery webpage with a menu displaying various baked goods such as bread, cakes, and pastries. The site offers images for each item and visitors can easily contact the bakery with the provided information. A standout feature of the webpage is the cart functionality, allowing visitors to plan and budget their purchases with ease.
+                  </p>
+                </div>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Vladislp/Ginger-Baker-Web-Application"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noopener noreferrer" href="https://github.com/Vladislp/Ginger-Baker-Web-Application" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                  <img
+                    alt="Ginger-Baker-Web-Application"
+                    class="img-fluid"
+                    src="assets/project2.jpg"
+                    height="900"
+                    width="900"
+                    loading="lazy"
+                  >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">ELIIS Calendar</h3>
+                <div>
+                  <p class="mb-4">
+                    This project involves working with JavaScript calendar library FullCalendar.
+                    The goal is to manage and display events in a user-friendly manner within a calendar interface. 
+                    The project includes features such as event creation, deletion, and modification.
+                </div>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Vladislp/ELIIS-Front-End"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noopener noreferrer" href="https://github.com/Vladislp/ELIIS-Front-End" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                  <img
+                    alt="Ginger-Baker-Web-Application"
+                    class="img-fluid"
+                    src="assets/eliis-project.png"
+                    height="900"
+                    width="900"
+                    loading="lazy"
+                  >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Kuehne+Nagel CRUD table</h3>
+                <div>
+                  <p class="mb-4">
+                    Welcome to the Shipment Tracking System project! 
+                    This is a web application that allows you to track and manage shipments. 
+                    It provides a user-friendly interface to view shipment details, filter shipments, and perform various CRUD 
+                    (Create, Read, Update, Delete) operations on shipments.
+                  </p>
+                </div>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Vladislp/Kuehne-Nagel-Task"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noopener noreferrer" href="https://github.com/Vladislp/Kuehne-Nagel-Task" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                  <img
+                    alt="Shipment Tracking System"
+                    class="img-fluid"
+                    src="assets/project3.jpg"
+                    height="900"
+                    width="900"
+                    loading="lazy"
+                  >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">SpaceX Cargo Planner</h3>
+                <div>
+                  <p class="mb-4">
+                    The SpaceX Cargo Planner is an application designed to automate cargo space calculations for shipment bound for Mars. 
+                    It allows users to load, filter, view, and edit shipments. 
+                  </p>
+                </div>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Vladislp/spacex-cargo-planner"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noopener noreferrer" href="https://github.com/Vladislp/spacex-cargo-planner" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                  <img
+                    alt="SpaceX Cargo Planner"
+                    class="img-fluid"
+                    src="assets/project4.jpg"
+                    height="900"
+                    width="900"
+                    loading="lazy"
+                  >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Whether you have a question or want to discuss a potential project, I'm always here to help. Contact me today to learn more about what I can offer.</p>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:vladpaskevits27@gmail.com"
+            >Contact me now</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noopener noreferrer" href="#top" class="back-to-top" aria-label="Back to Top">
+          <i class="fa fa-2x fa-angle-up" aria-hidden="true"></i>
+        </a>        
+        <div class="social-links">
+          <a rel="noopener noreferrer" href="https://www.linkedin.com/in/vladislav-pa%C5%A1kevit%C5%A1-295b7823a/" target="_blank" aria-label="LinkedIn Profile">
+            <i class="fa fa-inverse fa-linkedin"></i>
+          </a>
+          <a rel="noopener noreferrer" href="https://github.com/Vladislp" target="_blank" aria-label="GitHub Profile">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script type="module" src="index.js"></script>
+
+
+  </body>
+</html>
