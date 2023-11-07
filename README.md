@@ -20,7 +20,10 @@ Welcome to my portfolio project! Here, you will find a collection of my best wor
 
 #### Description of project 1.
 
-I designed and executed an electrical engineering project that involved creating a custom electrical scheme, researching and selecting appropriate components, and ordering and assembling a printed circuit board. I also programmed the board to achieve the desired functionality. This project required attention to detail, problem-solving skills, and proficiency in electronics and programming. 
+I designed and executed an electrical engineering project that involved creating a custom electrical scheme, researching and selecting appropriate components, and ordering and assembling a printed circuit board. I also programmed the board to achieve the desired functionality. This project required attention to detail, problem-solving skills, and proficiency in electronics and programming.
+
+![project5](https://github.com/Vladislp/turbo-palm-tree-portfolio/assets/42935979/1d406142-8d7c-4c71-83a6-daa19aa45856)
+
 
 ### Project 2 (Ginger Bakery)
 
@@ -28,11 +31,31 @@ I designed and executed an electrical engineering project that involved creating
 
 I created a bakery webpage with a menu displaying various baked goods such as bread, cakes, and pastries. The site offers images for each item and visitors can easily contact the bakery with the provided information. A standout feature of the webpage is the cart functionality, allowing visitors to plan and budget their purchases with ease. 
 
-### Project 3 (Education-notebook-wiki)
+![project2](https://github.com/Vladislp/turbo-palm-tree-portfolio/assets/42935979/cc1e581b-ebfc-4b95-b475-bbc6a2ed3cb6)
+
+### Project 3 (ELIIS Calendar)
 
 #### Description of project 3.
 
-While browsing Udemy, I stumbled upon a course that piqued my interest. During the course, a friend suggested the importance of taking notes when learning new information. This inspired me to create a web application to keep track of my own notes and information. It's still a work in progress, but I'd be happy to share the source code and my progress with anyone interested. 
+This project involves working with JavaScript calendar library FullCalendar. The goal is to manage and display events in a user-friendly manner within a calendar interface. The project includes features such as event creation, deletion, and modification.
+
+![eliis-project](https://github.com/Vladislp/turbo-palm-tree-portfolio/assets/42935979/d71f9b81-63ff-4f3e-b29c-e9b3b1799cef)
+
+### Project 4 (Kuehne+Nagel CRUD table)
+
+#### Description of project 4.
+
+Welcome to the Shipment Tracking System project! This is a web application that allows you to track and manage shipments. It provides a user-friendly interface to view shipment details, filter shipments, and perform various CRUD (Create, Read, Update, Delete) operations on shipments.
+
+![project3](https://github.com/Vladislp/turbo-palm-tree-portfolio/assets/42935979/11530855-bc30-45ab-815a-4140808f3517)
+
+### Project 5 (SpaceX Cargo Planner)
+
+#### Description of project 5.
+
+The SpaceX Cargo Planner is an application designed to automate cargo space calculations for shipment bound for Mars. It allows users to load, filter, view, and edit shipments.
+
+![project4](https://github.com/Vladislp/turbo-palm-tree-portfolio/assets/42935979/ee891645-094a-4293-a83a-cb2fd0f361c3)
 
 ## Installation
 
