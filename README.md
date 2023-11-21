@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio [![Netlify Status](https://api.netlify.com/api/v1/badges/95d38385-0d0b-422d-ad2c-f81ca1607dda/deploy-status)](https://app.netlify.com/sites/vp-web-development-showcase/deploys)
 
 Welcome to my portfolio project! Here, you will find a collection of my best work and projects I have worked on. This is a great place to get an idea of my coding style, interests and skillset.
 
