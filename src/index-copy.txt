@@ -351,6 +351,64 @@
               </div>
             </div>
           </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">An online application that recommends films and seats to cinema-goers.</h3>
+                <div>
+                  <p class="mb-4">
+                    The Films and Seats is an application designed to help people choose and visit they favorite movie. With seeing and filtering movies based on your wishes and choose seat in cinema hall.
+                  </p>
+                </div>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Vladislp/CGI-Suvepraktika-2024"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noopener noreferrer" href="https://github.com/Vladislp/CGI-Suvepraktika-2024" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                  <img
+                    alt="CGI-Suvepraktika-2024"
+                    class="img-fluid"
+                    src="assets/mainpage.jpg"
+                    height="900"
+                    width="900"
+                    loading="lazy"
+                  >
+                  <img
+                    alt="CGI-Suvepraktika-2024"
+                    class="img-fluid"
+                    src="assets/offCanvas.jpg"
+                    height="900"
+                    width="900"
+                    loading="lazy"
+                  >
+                  <img
+                    alt="CGI-Suvepraktika-2024"
+                    class="img-fluid"
+                    src="assets/CinemaHall.jpg"
+                    height="900"
+                    width="900"
+                    loading="lazy"
+                  >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
           <!-- /END Project -->
         </div>
       </div>
