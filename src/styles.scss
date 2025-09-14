@@ -24,11 +24,11 @@ $text-color: #333; // Dark gray
 $highlight-color: #6c63ff; // Lavender for highlights
 $border-radius: 8px; // Border radius for rounded corners
 
-.business-card-webpage {
+.project-description {
   font-family: 'Lora', serif;
-  line-height: 1.8; // Slightly improved line spacing
+  line-height: 1.8;
   color: #2b2b2b;
-  font-size: 1.05rem; // Slight global bump in font size
+  font-size: 1.05rem;
   padding: 40px;
   border: 1px solid #d3d3d3;
   border-radius: 5px;
@@ -40,7 +40,7 @@ $border-radius: 8px; // Border radius for rounded corners
     color: #d65a31;
     background-color: #fff3e6;
     padding: 0 5px;
-    font-size: 1.1rem; // Slightly larger to draw attention
+    font-size: 1.1rem;
   }
 
   .features-list {
@@ -60,296 +60,13 @@ $border-radius: 8px; // Border radius for rounded corners
 
       strong {
         color: #2b2b2b;
-        font-size: 1.05rem; // Match base text sizing
+        font-size: 1.05rem;
       }
     }
   }
 
   p {
     margin: 20px 0;
-    font-size: 1.15rem; // Boost paragraph readability
-  }
-}
-
-
-.bakery-webpage {
-  font-family: 'Lora', serif;
-  line-height: 1.8; // Slightly improved line spacing
-  color: #2b2b2b;
-  font-size: 1.05rem; // Slight global bump in font size
-  padding: 40px;
-  border: 1px solid #d3d3d3;
-  border-radius: 5px;
-  background-color: #fafafa;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-
-  .highlight {
-    font-weight: bold;
-    color: #d65a31;
-    background-color: #fff3e6;
-    padding: 0 5px;
-    font-size: 1.1rem; // Slightly larger to draw attention
-  }
-
-  .features-list {
-    list-style-type: disc;
-    padding-left: 25px;
-    margin: 20px 0;
-
-    li {
-      margin: 10px 0;
-      padding: 6px 0;
-      border-bottom: 1px solid #eaeaea;
-      transition: color 0.2s;
-
-      &:hover {
-        color: #d65a31;
-      }
-
-      strong {
-        color: #2b2b2b;
-        font-size: 1.05rem; // Match base text sizing
-      }
-    }
-  }
-
-  p {
-    margin: 20px 0;
-    font-size: 1.15rem; // Boost paragraph readability
-  }
-}
-
-.cargo-planner-project {
-  font-family: 'Lora', serif;
-  line-height: 1.8; // Slightly improved line spacing
-  color: #2b2b2b;
-  font-size: 1.05rem; // Slight global bump in font size
-  padding: 40px;
-  border: 1px solid #d3d3d3;
-  border-radius: 5px;
-  background-color: #fafafa;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-
-  .highlight {
-    font-weight: bold;
-    color: #d65a31;
-    background-color: #fff3e6;
-    padding: 0 5px;
-    font-size: 1.1rem; // Slightly larger to draw attention
-  }
-
-  .features-list {
-    list-style-type: disc;
-    padding-left: 25px;
-    margin: 20px 0;
-
-    li {
-      margin: 10px 0;
-      padding: 6px 0;
-      border-bottom: 1px solid #eaeaea;
-      transition: color 0.2s;
-
-      &:hover {
-        color: #d65a31;
-      }
-
-      strong {
-        color: #2b2b2b;
-        font-size: 1.05rem; // Match base text sizing
-      }
-    }
-  }
-
-  p {
-    margin: 20px 0;
-    font-size: 1.15rem; // Boost paragraph readability
-  }
-}
-
-.films-and-seats-project {
-  font-family: 'Lora', serif;
-  line-height: 1.8; // Slightly improved line spacing
-  color: #2b2b2b;
-  font-size: 1.05rem; // Slight global bump in font size
-  padding: 40px;
-  border: 1px solid #d3d3d3;
-  border-radius: 5px;
-  background-color: #fafafa;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-
-  .highlight {
-    font-weight: bold;
-    color: #d65a31;
-    background-color: #fff3e6;
-    padding: 0 5px;
-    font-size: 1.1rem; // Slightly larger to draw attention
-  }
-
-  .features-list {
-    list-style-type: disc;
-    padding-left: 25px;
-    margin: 20px 0;
-
-    li {
-      margin: 10px 0;
-      padding: 6px 0;
-      border-bottom: 1px solid #eaeaea;
-      transition: color 0.2s;
-
-      &:hover {
-        color: #d65a31;
-      }
-
-      strong {
-        color: #2b2b2b;
-        font-size: 1.05rem; // Match base text sizing
-      }
-    }
-  }
-
-  p {
-    margin: 20px 0;
-    font-size: 1.15rem; // Boost paragraph readability
-  }
-}
-
-.calendar-project {
-  font-family: 'Lora', serif;
-  line-height: 1.8; // Slightly improved line spacing
-  color: #2b2b2b;
-  font-size: 1.05rem; // Slight global bump in font size
-  padding: 40px;
-  border: 1px solid #d3d3d3;
-  border-radius: 5px;
-  background-color: #fafafa;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-
-  .highlight {
-    font-weight: bold;
-    color: #d65a31;
-    background-color: #fff3e6;
-    padding: 0 5px;
-    font-size: 1.1rem; // Slightly larger to draw attention
-  }
-
-  .features-list {
-    list-style-type: disc;
-    padding-left: 25px;
-    margin: 20px 0;
-
-    li {
-      margin: 10px 0;
-      padding: 6px 0;
-      border-bottom: 1px solid #eaeaea;
-      transition: color 0.2s;
-
-      &:hover {
-        color: #d65a31;
-      }
-
-      strong {
-        color: #2b2b2b;
-        font-size: 1.05rem; // Match base text sizing
-      }
-    }
-  }
-
-  p {
-    margin: 20px 0;
-    font-size: 1.15rem; // Boost paragraph readability
-  }
-}
-
-.shipment-tracking-project {
-  font-family: 'Lora', serif;
-  line-height: 1.8; // Slightly improved line spacing
-  color: #2b2b2b;
-  font-size: 1.05rem; // Slight global bump in font size
-  padding: 40px;
-  border: 1px solid #d3d3d3;
-  border-radius: 5px;
-  background-color: #fafafa;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-
-  .highlight {
-    font-weight: bold;
-    color: #d65a31;
-    background-color: #fff3e6;
-    padding: 0 5px;
-    font-size: 1.1rem; // Slightly larger to draw attention
-  }
-
-  .features-list {
-    list-style-type: disc;
-    padding-left: 25px;
-    margin: 20px 0;
-
-    li {
-      margin: 10px 0;
-      padding: 6px 0;
-      border-bottom: 1px solid #eaeaea;
-      transition: color 0.2s;
-
-      &:hover {
-        color: #d65a31;
-      }
-
-      strong {
-        color: #2b2b2b;
-        font-size: 1.05rem; // Match base text sizing
-      }
-    }
-  }
-
-  p {
-    margin: 20px 0;
-    font-size: 1.15rem; // Boost paragraph readability
-  }
-}
-
-.casino-lobby {
-  font-family: 'Lora', serif;
-  line-height: 1.8; // Slightly improved line spacing
-  color: #2b2b2b;
-  font-size: 1.05rem; // Slight global bump in font size
-  padding: 40px;
-  border: 1px solid #d3d3d3;
-  border-radius: 5px;
-  background-color: #fafafa;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-
-  .highlight {
-    font-weight: bold;
-    color: #d65a31;
-    background-color: #fff3e6;
-    padding: 0 5px;
-    font-size: 1.1rem; // Slightly larger to draw attention
-  }
-
-  .features-list {
-    list-style-type: disc;
-    padding-left: 25px;
-    margin: 20px 0;
-
-    li {
-      margin: 10px 0;
-      padding: 6px 0;
-      border-bottom: 1px solid #eaeaea;
-      transition: color 0.2s;
-
-      &:hover {
-        color: #d65a31;
-      }
-
-      strong {
-        color: #2b2b2b;
-        font-size: 1.05rem; // Match base text sizing
-      }
-    }
-  }
-
-  p {
-    margin: 20px 0;
-    font-size: 1.15rem; // Boost paragraph readability
+    font-size: 1.15rem;
   }
 }

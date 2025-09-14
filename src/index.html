@@ -66,6 +66,7 @@
     />
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
     <link rel="stylesheet" href="normalize.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
     <link
       rel="stylesheet"
@@ -139,41 +140,81 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">ESTMA Parody page</h3>
-                <div class="business-card-webpage">
+          <!-- Text Column -->
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden shadow-sm p-4 rounded bg-white">
+              <h3 class="project-wrapper__text-title">Border Queue App</h3>
+              <div class="ezborder-webpage">
+                <div class="project-description">
                   <p class="mb-4">
-                    I developed a <span class="highlight">business card-type webpage</span> using WordPress as an example for a potential client. The project involved designing a clean and professional layout that effectively showcases the client's brand and services. Key features included:
+                    The <span class="highlight">Border Queue Reservation System</span> is a full-stack application 
+                    designed to streamline border crossing by enabling users to book time slots in advance. 
+                    It ensures efficient queue management, generates confirmation PDFs with QR codes, 
+                    and provides border officials with verification tools.
                   </p>
                   <ul class="features-list">
-                    <li><strong>Custom Design:</strong> Created a visually appealing design that reflects the client’s identity, ensuring consistency with their branding.</li>
-                    <li><strong>Responsive Layout:</strong> Ensured the webpage is fully responsive, providing an optimal viewing experience across various devices, including desktops, tablets, and smartphones.</li>
-                    <li><strong>Content Management:</strong> Implemented a user-friendly content management system, allowing the client to easily update information and images as needed.</li>
-                    <li><strong>Contact Information:</strong> Included clear and accessible contact details, facilitating easy communication for potential customers.</li>
-                    <li><strong>SEO Optimization:</strong> Optimized the webpage for search engines, enhancing visibility and discoverability.</li>
+                    <li><strong>Reservation System:</strong> Users can view available slots and book their crossing time.</li>
+                    <li><strong>PDF Ticket Generation:</strong> Confirmation includes a PDF with personal details and QR code.</li>
+                    <li><strong>Authentication:</strong> Secure login and registration powered by Supabase.</li>
+                    <li><strong>Admin Tools:</strong> Guards can validate tickets and manage capacity.</li>
+                    <li><strong>Responsive Design:</strong> Optimized for both desktop and mobile use.</li>
                   </ul>
                   <p>
-                    This project required creativity, attention to detail, and an understanding of effective web design principles. The end result is a polished, professional online presence that serves as an effective digital business card for the client.
+                    Built using React, Supabase, TypeScript, and Bootstrap, this project reflects both backend–frontend 
+                    integration and full-stack architecture principles.
                   </p>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--hero"
+                    href="https://ezborder.netlify.app/"
+                  >
+                    Live Demo
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <video width="800" height="600" autoplay controls>
-                  <source src="/src/assets/recording.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video> 
+          </div>
+          <div class="col-lg-8 col-sm-12 d-flex align-items-center">
+            <div class="project-wrapper__image load-hidden shadow-sm p-2 rounded bg-white">
+              <div id="borderQueueCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner rounded">
+                  <div class="carousel-item active">
+                    <img src="assets/EZ1.jpg" class="d-block w-100 rounded" alt="EZBorder Screenshot 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/EZ2.jpg" class="d-block w-100 rounded" alt="EZBorder Screenshot 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/EZ3.jpg" class="d-block w-100 rounded" alt="EZBorder Screenshot 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/EZ4.jpg" class="d-block w-100 rounded" alt="EZBorder Screenshot 4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/EZ5.jpg" class="d-block w-100 rounded" alt="EZBorder Screenshot 4">
+                  </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#borderQueueCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#borderQueueCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
           </div>
+        </div>
 
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden shadow-sm p-4 rounded bg-white">
                 <h3 class="project-wrapper__text-title">Casino Lobby</h3>
-                <div class="casino-lobby">
+                <div class="project-description">
                   <p class="mb-4">
                     The <span class="highlight">Casino Lobby</span> is a modern frontend project simulating a real-world online casino interface. It focuses on clean UX, interactive components, and engaging visuals.
                   </p>
@@ -203,57 +244,8 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Ginger Bakery</h3>
-                <div class="bakery-webpage">
-                    <p class="mb-4">
-                      I created a <span class="highlight">bakery webpage</span> with a menu displaying various baked goods such as bread, cakes, and pastries. The site offers images for each item, and visitors can easily contact the bakery with the provided information. Key features of the webpage include:
-                    </p>
-                    <ul class="features-list">
-                      <li><strong>Visual Menu:</strong> Displayed images of various baked goods including bread, cakes, and pastries, allowing customers to view available items easily.</li>
-                      <li><strong>Contact Information:</strong> Provided clear and accessible contact details for easy communication between visitors and the bakery.</li>
-                      <li><strong>Cart Functionality:</strong> Implemented a cart feature that allows visitors to plan and budget their purchases conveniently.</li>
-                      <li><strong>Responsive Design:</strong> Ensured the website adapts to different screen sizes, providing an optimal experience on desktops, tablets, and smartphones.</li>
-                    </ul>
-                </div>           
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/Vladislp/Ginger-Baker-Web-Application"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a
-                  rel="noopener noreferrer"
-                  href="https://github.com/Vladislp/Ginger-Baker-Web-Application"
-                  target="_blank"
-                  ><div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Ginger-Baker-Web-Application"
-                      class="img-fluid"
-                      src="assets/project2.jpg"
-                      height="900"
-                      width="900"
-                      loading="lazy"
-                    /></div
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">ELIIS Calendar</h3>
-                <div class="calendar-project">
+                <div class="project-description">
                   <p class="mb-4">
                     This project involves working with the <span class="highlight">JavaScript calendar library FullCalendar</span>. The goal is to manage and display events in a user-friendly manner within a calendar interface. Key features of the project include:
                   </p>
@@ -295,7 +287,7 @@
                       loading="lazy"
                     />
                   </div>
-                ></a>
+                </a>
               </div>
             </div>
           </div>
@@ -304,7 +296,7 @@
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Kuehne+Nagel CRUD Table</h3>
-                <div class="shipment-tracking-project">
+                <div class="project-description">
                   <p class="mb-4">
                     Welcome to the <span class="highlight">Shipment Tracking System</span> project! This is a web application that allows you to track and manage shipments. Key features of the project include:
                   </p>
@@ -346,22 +338,18 @@
                       loading="lazy"
                     />
                   </div>
-                ></a>
+                </a>
               </div>
             </div>
           </div>
-          
-          
-          
-          
-          
+            
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">
                   An online application that recommends films and seats to cinema-goers.
                 </h3>
-                <div class="films-and-seats-project">
+                <div class="project-description">
                   <p class="mb-4">
                     The <span class="highlight">Films and Seats</span> application is designed to help people choose and visit their favorite movie. Key features of the project include:
                   </p>
@@ -419,7 +407,7 @@
                       loading="lazy"
                     />
                   </div>
-                ></a>
+                </a>
               </div>
             </div>
           </div>
@@ -473,5 +461,6 @@
       </div>
     </footer>
     <script type="module" src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
